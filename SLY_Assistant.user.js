@@ -19,13 +19,13 @@
     'use strict';
 
     //Used for reading solana data
-    let customReadRPCs = [];
+    let customReadRPCs = ['https://solana-mainnet.g.alchemy.com/v2/MjxvL335zTAwFkGTF5XQMgVwnpGm1MLN','https://rpc.hellomoon.io/051bfd4c-cbde-4879-8639-28534492d3a7'];
 
     //Used for pushing transactions to solana chain
-    let customWriteRPCs = [];
+    let customWriteRPCs = ['https://solana-mainnet.g.alchemy.com/v2/MjxvL335zTAwFkGTF5XQMgVwnpGm1MLN','https://rpc.hellomoon.io/051bfd4c-cbde-4879-8639-28534492d3a7'];
 
     let saRPCs = [
-        'https://rpc.ironforge.network/mainnet?apiKey=01HZFVRZ4A5WVX2NDA4PCPHJ7N',
+      //  'https://rpc.ironforge.network/mainnet?apiKey=01HZFVRZ4A5WVX2NDA4PCPHJ7N',
     ];
     let readRPCs = customReadRPCs.concat(saRPCs);
     let writeRPCs = customWriteRPCs.concat(saRPCs);
